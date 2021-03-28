@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom Properties, update these for your own design */
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --fw-bold: 900;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --fs-body: 1.3rem;
+}
+
+body {
+   
+    color: var(--clr-dark);
+    margin: 0px;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline  wavy rgb(247, 103, 103);
+}
+
+#IO_textarea{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+textarea{
+    margin-left:10px;
+    margin-right: 10px;
+    border: 5px solid black;
+    width:50vw;
+    height: 60vh;
+    resize: none;
+    
+}
+
+button{
+    margin:auto;
+    display:block;
+    margin-top: 40px;
+    border: 2px solid;
+    font-weight: var(--fw-bold);
+    cursor: pointer;
+}
