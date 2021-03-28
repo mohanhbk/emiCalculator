@@ -48,7 +48,7 @@ let emiCalculator = (function () {
             console.log(individualCustomerDetail)
             let amountPaid = calculateTotalAmountPaid(EMIPerMonth, individualCustomerDetail);
             let remainingEMICount = Math.ceil((totalAmount - amountPaid) / EMIPerMonth);
-            convertToOutputFormat(amountPaid, remainingEMICount, individualCustomerDetail);
+            convertToOutputFormat((remainingEMICount==0?totalAmount:amountPaid), remainingEMICount, individualCustomerDetail);
         }
         else{
             handleBadResponseQuery("No Account detected",input);
