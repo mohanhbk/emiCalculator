@@ -34,7 +34,7 @@ let emiCalculator = (function () {
             }  
         }
         if(!paymentDoneFlag){
-            handleBadResponseQuery("No account detected", input);
+            handleBadResponseQuery("No Account detected", input);
         }
         
     }
