@@ -1,5 +1,6 @@
 
 # emiCalculator.github.io
+This project aims more on code readability and reusability. Mainly focussed on module pattern. 
 The EMI (Equated Monthly Instalment) Calculator is an application developed using pure vanilla js, HTML and CSS to calculate the EMI with the given details of principal amount, tenure, and interest. 
 The project takes input in the given format,
 
